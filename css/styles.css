@@ -5,15 +5,93 @@ body {
 
 /* Title Section ...........................................................*/
 #title {
-    background-color: #7882A4;
+    background-color: #5f8096;
+    color: #fff;
 }
 
 h1 {
-    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
     font-weight: bold;
     line-height: 1.5;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
 .container-fluid {
     padding: 3% 15%;
+}
+
+/* Navigation bar ...............................................................*/
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.nav-item > a:after,
+.nav-item > a.active:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  display: block;
+  background-color: #fff;
+  margin-top: 2px;
+  transition: 0.5s;
+}
+
+.nav-item > a.active:after {
+  width: 100%;
+}
+
+.nav-item > a:hover:after {
+  width: 100%;
+}
+
+/* download buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-img {
+    width: 100%;
+    transform: perspective(900px) rotateY(-15deg) rotateX(5deg);
+}
+
+/* Features Section .........................................................*/
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #7C99AC;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #5f8096;
 }
