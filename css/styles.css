@@ -1,54 +1,54 @@
 /* COMMON STYLES ............................................................*/
 body {
-    font-family: 'Comfortaa', cursive !important;
+  font-family: "Comfortaa", cursive !important;
 }
 
 /* Title Section ...........................................................*/
 #title {
-    background-color: #5f8096;
-    color: #fff;
+  background-color: #5f8096;
+  color: #fff;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    font-weight: bold;
-    line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 h2 {
-    font-size: 3rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 h3 {
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
-    color: #8f8f8f;
+  color: #8f8f8f;
 }
 
 .container-fluid {
-    padding: 3% 15%;
+  padding: 3% 15%;
 }
 
 /* Navigation bar ...............................................................*/
 .navbar {
-    padding-bottom: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 .navbar-brand {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-size: 1.2rem;
-    font-weight: lighter;
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 .nav-item > a:after,
@@ -73,57 +73,61 @@ p {
 /* download buttons */
 
 .download-btn {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
 
 /* Title image */
 .title-img {
-    width: 100%;
-    transform: perspective(900px) rotateY(-15deg) rotateX(5deg);
+  width: 100%;
+  transform: perspective(900px) rotateY(-15deg) rotateX(5deg);
 }
 
 /* Features Section .........................................................*/
 #features {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 .feature-box {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 .icon {
-    color: #8ca5b6;
-    margin-bottom: 1rem;
+  color: #8ca5b6;
+  margin-bottom: 1rem;
 }
 
 .icon:hover {
-    color: #5f8096;
+  color: #5f8096;
 }
 
 /* Testimonial section .......................................................*/
 
 #testimonials {
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #8ca5b6;
-    color: #fff;
+  text-align: center;
+  background-color: #8ca5b6;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 .testimonial-img {
-    width: 10%;
-    margin: 20px;
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
 }
 
 /* press section .............................................*/
 
 #press {
-    background-color: #8ca5b6;
-    text-align: center;
-    padding-bottom: 3%;
+  background-color: #8ca5b6;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .press-logo {
-    width: 13%;
-    margin: 20px 20px 50px;
+  width: 13%;
+  margin: 20px 20px 50px;
 }
