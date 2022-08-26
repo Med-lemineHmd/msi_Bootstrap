@@ -31,7 +31,11 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 12%;
+}
+
+.row {
+  position: relative;
 }
 
 /* Navigation bar ...............................................................*/
@@ -57,7 +61,7 @@ p {
   width: 0;
   height: 3px;
   display: block;
-  background-color: #fff;
+  background-color: #331364;
   margin-top: 2px;
   transition: 0.5s;
 }
@@ -78,13 +82,16 @@ p {
 
 /* Title image */
 .title-img {
-  width: 100%;
-  transform: perspective(900px) rotateY(-15deg) rotateX(5deg);
+  width: 46%;
+  transform: perspective(900px) rotateY(-15deg) rotateX(6deg);
+  position: absolute;
 }
 
 /* Features Section .........................................................*/
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
@@ -119,7 +126,7 @@ p {
   margin: 20px;
 }
 
-/* press section .............................................*/
+/* press section ...........................................................*/
 
 #press {
   background-color: #8ca5b6;
@@ -130,4 +137,15 @@ p {
 .press-logo {
   width: 13%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing section ........................................................*/
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
