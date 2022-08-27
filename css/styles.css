@@ -207,3 +207,18 @@ p {
     transform: rotate(0);
   }
 }
+
+@media (max-width: 400px) {
+  .big-heading {
+    font-size: 2.8rem;
+  }
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+  .testimonial-text {
+    font-size: 2rem;
+  }
+  #pricing {
+    padding: 50px;
+  }
+}
