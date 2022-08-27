@@ -37,7 +37,7 @@ p {
 /* Sections ................................................................*/
 
 .colored-section {
-  background-color: #5f8096;
+  background-color: #1A2238;
   color: #fff;
 }
 
@@ -83,7 +83,7 @@ p {
   width: 0;
   height: 3px;
   display: block;
-  background-color: #331364;
+  background-color: #fff;
   margin-top: 2px;
   transition: 0.5s;
 }
@@ -123,18 +123,18 @@ p {
 }
 
 .icon {
-  color: #8ca5b6;
+  color: #32426c;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #5f8096;
+  color: #1A2238;
 }
 
 /* Testimonial section .......................................................*/
 
 #testimonials {
-  background-color: #8ca5b6;
+  background-color: #32426c;
 }
 
 .testimonial-text {
@@ -152,7 +152,7 @@ p {
 /* press section ...........................................................*/
 
 #press {
-  background-color: #8ca5b6;
+  background-color: #32426c;
   padding-bottom: 3%;
 }
 
