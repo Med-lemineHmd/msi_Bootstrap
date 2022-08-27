@@ -34,15 +34,22 @@ p {
   padding: 7% 15%;
 }
 
-/* Title Section ...........................................................*/
-#title {
+/* Sections ................................................................*/
+
+.colored-section {
   background-color: #5f8096;
   color: #fff;
-  text-align: left;
 }
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section ...........................................................*/
 
 #title .container-fluid {
   padding: 3% 15% 12%;
+  text-align: left;
 }
 
 .title-container {
@@ -104,7 +111,6 @@ p {
 
 /* Features Section .........................................................*/
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -129,7 +135,6 @@ p {
 
 #testimonials {
   background-color: #8ca5b6;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -175,7 +180,6 @@ p {
 /* CTA Section ..........................................................*/
 
 #cta {
-  background-color: #5f8096;
   color: #fff;
 }
 
